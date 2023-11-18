@@ -33,13 +33,13 @@ def rockPaperScissors():
     elif userChoice not in choicesArray:
         print("Invalid Input")
         tries += 1
-        print("################################################################")
+        print("----------------------------------------------------------------")
         rockPaperScissors()
     elif computerChoice == userChoice:
         print("It's a Draw!!")
         tries += 1
         draw += 1
-        print("################################################################")
+        print("----------------------------------------------------------------")
         rockPaperScissors()
     elif (
             (computerChoice == "R" and userChoice == "P") or
@@ -49,13 +49,13 @@ def rockPaperScissors():
         print("You win!!")
         tries += 1
         win += 1
-        print("################################################################")
+        print("----------------------------------------------------------------")
         rockPaperScissors()
     else:
         print("You Lose!!")
         tries += 1
         lose += 1
-        print("################################################################")
+        print("----------------------------------------------------------------")
         rockPaperScissors()
 
 rockPaperScissors()
