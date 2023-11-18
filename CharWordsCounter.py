@@ -1,11 +1,12 @@
-text = str(input("Enter Text : "))
+###################### character words counter ###########################
 
-def charCounter(input : str):
-  noSpaceString = input.replace(" ", "")
+def charCounter():
+  text = str(input("Enter Text : "))
+  noSpaceString = text.replace(" ", "")
   CharCount = len(noSpaceString)
-  wordCount = len(input.split())
+  wordCount = len(text.split())
   print("You have ", wordCount, " Words")
   print("You have ", CharCount, " Characters with no whitespaces")
-  print("You have ", len(input), " Characters including whitespaces")
+  print("You have ", len(text), " Characters including whitespaces")
 
-charCounter(text)
+charCounter()
