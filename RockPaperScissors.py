@@ -6,8 +6,10 @@
 # step 4 => create a loop that keep looping until it hit the number of max tries.
 # step 5 => check Tries number left.
 # step 6 => define conditions : invalid input, draw scenario, winning scenarios, losing scenarios. 
-# step 7 => add tries++ in every scenario. add win, lose, draw for specific cases
-# step 8 => repeat the steps until tries hit the max.
+# step 7 => add win +1, lose +1, draw +1 for specific cases.
+# step 8 => add tries + 1 upon every loop.
+# step 9 => repeat the steps until tries hit the max.
+# step 10 => when the looping stops. give the user the final score.
 
 import random
 
