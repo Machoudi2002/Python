@@ -1,4 +1,13 @@
 ########################## rock paper scissors ##########################
+# steps :
+# step 1 => define the initial number of tries, win, lose, draw.
+# step 2 =? Read the userChoice.
+# step 3 => Randomly select computer choice.
+# step 4 => Read Tries number left
+# step 5 => define conditions : tries >= 6, invalid input, draw scenario, winning scenarios, losing scenarios. 
+# step 6 => add tries++ in every scenario. add win, lose, draw for specific cases
+# step 7 => repeat the steps until tries hit the max.
+
 
 import random
 
